@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c0829" />
+    <meta
+      name="description"
+      content="WAS (7 Minutos) é um jogo narrativo sobre memória, identidade e escolhas. Acompanhe a história de Oliver em sete capítulos e jogue agora."
+    />
+    <title>WAS — Um jogo sobre aquilo que fica</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WAS — Um jogo sobre aquilo que fica" />
+    <meta property="og:description" content="Um jogo narrativo sobre memória, identidade e escolhas. Acompanhe a história de Oliver." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+    <header class="header">
+      <a class="brand" href="#inicio" aria-label="7 Minutos, início"
+        > <span>WAS</span></a
+      ><button
+        class="menu"
+        id="menu"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+        Menu <span>☰</span>
+      </button>
+      <nav id="nav" aria-label="Navegação principal">
+        <a href="#sobre">O jogo</a><a href="#cenarios">Cenários</a
+        ><a href="#experiencia">Experiência</a><a href="#equipe">Equipe</a
+        ><a href="#jogar" class="nav-end">Jogar <span>↗</span></a>
+      </nav>
+    </header>
+    <main id="conteudo">
+      <section class="hero" id="inicio">
+        <div
+          class="hero-image"
+          role="img"
+          aria-label="Arte oficial do projeto: silhueta de Oliver com o cérebro em destaque"
+        ></div>
+        <div class="hero-gradient"></div>
+        <div class="hero-inner">
+          <div class="hero-title">
+            <p>7 MINUTOS</p>
+            <h1>WAS</h1>
+            <div class="hero-bottom">
+              <p>
+                Uma história sobre as memórias que nos formam — e as escolhas
+                que fazemos com elas.
+              </p>
+              <a href="#sobre" class="text-link light"
+                >Conheça o jogo <span>↘</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="intro section" id="sobre">
+        <div class="section-label">01 / O JOGO</div>
+        <div class="intro-layout">
+          <h2>O que sobra de nós<br />quando a memória <em>falha?</em></h2>
+          <div class="intro-text">
+            <p>
+              Oliver acorda em seu quarto sem se lembrar de quem é. Os objetos
+              ao redor parecem familiares, mas não contam a história inteira.
+            </p>
+            <p>
+              Ao investigar lugares e reencontrar fragmentos do passado, ele
+              tenta reconstruir a própria identidade. Cada descoberta abre uma
+              nova lembrança — e novas perguntas.
+            </p>
+            <p class="pullquote">
+              “Se você esquecesse todas as suas memórias, ainda seria a mesma
+              pessoa?”
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="characters section" id="personagens">
+        <div class="section-label">02 / PERSONAGENS</div>
+        <div class="characters-heading">
+          <h2>Rostos que guardam<br /><em>histórias.</em></h2>
+          <p>Cada rosto revela uma parte do universo do jogo.</p>
+        </div>
+        <div class="character-list">
+          <article class="character-step" data-character="01">
+            <div class="character-art"><img src="assets/personagem-jovem.png" alt="Oliver, jovem de cabelos escuros cacheados, óculos e uniforme azul claro, apresentado em diferentes vistas" loading="lazy" /></div>
+            <div class="character-copy" data-n="01"><span class="character-index">PERSONAGEM 01 / O PROTAGONISTA</span><h3>Oliver<br /><em>em busca de respostas.</em></h3><p>Oliver é o personagem adulto principal da história e estuda para se tornar um grande médico. Ao longo da narrativa, é ele quem investiga e resolve os mistérios que surgem em seu caminho.</p><div class="voice-player" data-name="Oliver"><button class="voice-btn" type="button" aria-pressed="false" aria-label="Ouvir Oliver se apresentar"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><div class="voice-info"><span class="voice-label"><span class="voice-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="voice-text">OUVIR OLIVER</span></span><input class="voice-seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Posição do áudio de Oliver" /></div><span class="voice-time" aria-hidden="true">0:00 / 0:43</span><audio preload="metadata" src="assets/audio/oliver.mp3"></audio></div></div>
+          </article>
+          <article class="character-step character-step-reverse" data-character="02">
+            <div class="character-art"><img src="assets/personagem-fase-5.png" alt="Santiago, médico mais velho de cabelos grisalhos, óculos e bigode, em vistas de corpo inteiro e retratos" loading="lazy" /></div>
+            <div class="character-copy" data-n="02"><span class="character-index">PERSONAGEM 02 / EXPERIÊNCIA E MEMÓRIA</span><h3>Santiago<br /><em>uma vida de dedicação.</em></h3><p>Santiago é um médico neurologista aposentado, conhecido por ter sido estudioso e profundamente dedicado à sua carreira. Sua experiência e seu passado fazem dele uma presença importante no universo da história.</p><div class="voice-player" data-name="Santiago"><button class="voice-btn" type="button" aria-pressed="false" aria-label="Ouvir Santiago se apresentar"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><div class="voice-info"><span class="voice-label"><span class="voice-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="voice-text">OUVIR SANTIAGO</span></span><input class="voice-seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Posição do áudio de Santiago" /></div><span class="voice-time" aria-hidden="true">0:00 / 0:50</span><audio preload="metadata" src="assets/audio/santiago.mp3"></audio></div></div>
+          </article>
+          <article class="character-step" data-character="03">
+            <div class="character-art"><img src="assets/personagem-ruiva.png" alt="Zoe, jovem de cabelos ruivos, sardas, brincos e blusa listrada, apresentada em diferentes vistas" loading="lazy" /></div>
+            <div class="character-copy" data-n="03"><span class="character-index">PERSONAGEM 03 / ARTE E CONEXÕES</span><h3>Zoe<br /><em>uma voz essencial.</em></h3><p>Zoe é uma personagem secundária que aprecia profundamente a música e a arte. Mesmo sem ocupar o centro da história, exerce um papel crucial na narrativa e nas conexões entre os personagens.</p><div class="voice-player" data-name="Zoe"><button class="voice-btn" type="button" aria-pressed="false" aria-label="Ouvir Zoe se apresentar"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><div class="voice-info"><span class="voice-label"><span class="voice-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="voice-text">OUVIR ZOE</span></span><input class="voice-seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Posição do áudio de Zoe" /></div><span class="voice-time" aria-hidden="true">0:00 / 0:31</span><audio preload="metadata" src="assets/audio/zoe.mp3"></audio></div></div>
+          </article>
+        </div>
+      </section>
+      <section class="scenes section" id="cenarios">
+        <div class="section-label">03 / CENÁRIOS</div>
+        <div class="scenes-heading">
+          <h2>Uma vida em<br /><em>sete capítulos.</em></h2>
+          <p>Cada ambiente revela um pouco mais da história de Oliver.</p>
+        </div>
+        <div class="gallery">
+          <div class="gallery-main">
+            <div class="gallery-frame" id="gallery-frame">
+              <img
+                id="gallery-image"
+                src="assets/fase-1-quarto.webp"
+                alt="Quarto de infância de Oliver"
+              />
+            </div>
+          </div>
+          <div class="gallery-aside">
+            <div class="gallery-number">
+              <span id="gallery-current">01</span><span>/ 07</span>
+            </div>
+            <div class="gallery-copy">
+              <p class="gallery-kicker" id="gallery-place">
+                QUARTO DE INFÂNCIA
+              </p>
+              <h3 id="gallery-title">Infância</h3>
+              <p id="gallery-description">
+                Brinquedos, livros e fotografias guardam os primeiros vestígios
+                de uma história esquecida.
+              </p>
+            </div>
+            <div class="gallery-controls">
+              <button id="previous" aria-label="Ver fase anterior">
+                ← <span>Anterior</span></button
+              ><button id="next" aria-label="Ver próxima fase">
+                <span>Próxima</span> →
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="chapter-nav"
+          id="chapter-nav"
+          aria-label="Selecionar capítulo"
+        ></div>
+      </section>
+      <section class="experience section" id="experiencia">
+        <div class="section-label">04 / EXPERIÊNCIA</div>
+        <div class="experience-layout">
+          <h2>O passado não se<br /><em>conta sozinho.</em></h2>
+          <div class="experience-list">
+            <article>
+              <span>01</span>
+              <div>
+                <h3>Observe</h3>
+                <p>
+                  Explore ambientes e examine objetos, documentos e fotografias.
+                  Os detalhes ajudam a reconstruir cada lembrança.
+                </p>
+              </div>
+            </article>
+            <article>
+              <span>02</span>
+              <div>
+                <h3>Conecte</h3>
+                <p>
+                  Resolva enigmas e encontre relações entre pistas aparentemente
+                  desconexas.
+                </p>
+              </div>
+            </article>
+            <article>
+              <span>03</span>
+              <div>
+                <h3>Escolha</h3>
+                <p>
+                  Nos diálogos e flashbacks, suas decisões participam da maneira
+                  como Oliver revisita a própria história.
+                </p>
+              </div>
+            </article>
+            <article>
+              <span>04</span>
+              <div>
+                <h3>Permaneça acordado</h3>
+                <p>
+                  Em alguns momentos, será preciso reagir rapidamente para
+                  continuar avançando.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="quote-section">
+        <div class="quote-inner">
+          <blockquote>
+            Nem tudo o que esquecemos deixa de fazer parte de quem somos.
+          </blockquote>
+        </div>
+      </section>
+      <section class="play section" id="jogar">
+        <div class="section-label">05 / JOGAR</div>
+        <div class="play-layout">
+          <div>
+            <h2>Sua história<br />começa <em>agora.</em></h2>
+            <p>
+              WAS já está disponível. Acompanhe Oliver em sete capítulos e
+              descubra o que sobra de nós quando a memória falha.
+            </p>
+            <!-- TROQUE o href abaixo pelo link do jogo -->
+            <a class="play-button" href="#LINK-DO-JOGO" target="_blank" rel="noopener noreferrer">Jogar agora <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+      <section class="credits section" id="equipe">
+        <div class="section-label">06 / EQUIPE</div>
+        <div class="credits-heading">
+          <h2>Por trás de<br /><em>WAS.</em></h2>
+        </div>
+        <div class="credits-grid">
+          <div>
+            <h3>Marketing</h3>
+            <p>
+              Ester Valeriano<br />Isadora Berganton<br />Giovana Santos<br />Heloisa
+              Aparecida
+            </p>
+          </div>
+          <div>
+            <h3>Mobile · Adaptação</h3>
+            <p>
+              Guilherme Guerra<br />Emanuel Lara<br />Kevin<br />Camila Saori
+            </p>
+          </div>
+          <div>
+            <h3>Produto</h3>
+            <p>Alexandre Junior<br />João Pedro<br />Guilherme Parreira</p>
+          </div>
+          <div>
+            <h3>Identidade visual</h3>
+            <p>
+              Marília Torres<br />Miguel Augusto<br />Beatriz Gomes<br />Giovanna
+              Faria<br />Gabriella Fernandes
+            </p>
+          </div>
+        </div>
+        <div class="resources">
+          <h3>Materiais do projeto</h3>
+          <div>
+            <a
+              href="https://trello.com/invite/b/6ac6463d4e29ae59cd09e53b/ATTI65dfae2589a0507800055bbf97cdbb90FD678CCC/marketing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Marketing ↗</a
+            ><a
+              href="https://trello.com/invite/b/6ac6486a929d008e32aaff33/ATTIfcb0cc5e309517c4aab8414019cda9656F6406B7/identidade-visual"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Identidade visual ↗</a
+            >
+          </div>
+        </div>
+      </section>
+    
+      <section class="music section" id="trilha">
+        <div class="section-label">07 / TRILHA SONORA</div>
+        <h2>Músicas <em>do jogo.</em></h2>
+        <ol class="music-list">
+          <li>
+            <span class="music-scene">Menu</span>
+            <strong class="music-title">Dirtmouth</strong>
+            <span class="music-artist">Christopher Larkin</span>
+            <a class="music-link" href="https://www.youtube.com/watch?v=NSlkW1fFkyo" target="_blank" rel="noopener noreferrer" aria-label="Ouvir Dirtmouth no YouTube (abre em nova aba)">Ouvir ↗</a>
+          </li>
+          <li>
+            <span class="music-scene">Fase 01 · Infância</span>
+            <strong class="music-title">Merry-Go-Round</strong>
+            <span class="music-artist">Housman</span>
+            <a class="music-link" href="https://www.youtube.com/watch?v=9Sq3qRHzYX8" target="_blank" rel="noopener noreferrer" aria-label="Ouvir Merry-Go-Round no YouTube (abre em nova aba)">Ouvir ↗</a>
+          </li>
+          <li>
+            <span class="music-scene">Fase 02 · Adolescência</span>
+            <strong class="music-title">My Friends (Spirit Theme Suite)</strong>
+            <span class="music-artist">Max LL</span>
+            <a class="music-link" href="https://www.youtube.com/watch?v=o3XQGGYM8SU" target="_blank" rel="noopener noreferrer" aria-label="Ouvir My Friends (Spirit Theme Suite) no YouTube (abre em nova aba)">Ouvir ↗</a>
+          </li>
+          <li>
+            <span class="music-scene">Fase 03 · Faculdade</span>
+            <strong class="music-title">I Wish You Love (Instrumental)</strong>
+            <span class="music-artist">Mei Mei The Bunny</span>
+            <a class="music-link" href="https://www.youtube.com/watch?v=8V8y4RvgEko" target="_blank" rel="noopener noreferrer" aria-label="Ouvir I Wish You Love (Instrumental) no YouTube (abre em nova aba)">Ouvir ↗</a>
+          </li>
+          <li>
+            <span class="music-scene">Fase 04 · Apartamento</span>
+            <strong class="music-title">Acaso</strong>
+            <span class="music-artist">Schiavoto</span>
+            <a class="music-link" href="https://www.youtube.com/watch?v=ZZmLZuICGsM" target="_blank" rel="noopener noreferrer" aria-label="Ouvir Acaso no YouTube (abre em nova aba)">Ouvir ↗</a>
+          </li>
+          <li>
+            <span class="music-scene">Fase 05 · Laboratório</span>
+            <strong class="music-title">Choral Chambers</strong>
+            <span class="music-artist">Christopher Larkin</span>
+            <a class="music-link" href="https://www.youtube.com/watch?v=bAkx5aHyDUI" target="_blank" rel="noopener noreferrer" aria-label="Ouvir Choral Chambers no YouTube (abre em nova aba)">Ouvir ↗</a>
+          </li>
+          <li>
+            <span class="music-scene">Fase 06 · Hospital</span>
+            <strong class="music-title">Resting Grounds</strong>
+            <span class="music-artist">Christopher Larkin</span>
+            <a class="music-link" href="https://www.youtube.com/watch?v=CgrBJDU2yvQ" target="_blank" rel="noopener noreferrer" aria-label="Ouvir Resting Grounds no YouTube (abre em nova aba)">Ouvir ↗</a>
+          </li>
+          <li>
+            <span class="music-scene">Fase 07 · Campo</span>
+            <strong class="music-title">Thorns Of A Rose</strong>
+            <span class="music-artist">Housman</span>
+            <a class="music-link" href="https://www.youtube.com/watch?v=cPyspH_HPdM" target="_blank" rel="noopener noreferrer" aria-label="Ouvir Thorns Of A Rose no YouTube (abre em nova aba)">Ouvir ↗</a>
+          </li>
+          <li>
+            <span class="music-scene">Final · Flashbacks</span>
+            <strong class="music-title">The Winner Takes It All</strong>
+            <span class="music-artist">ABBA</span>
+            <a class="music-link" href="https://www.youtube.com/watch?v=92cwKCU8Z5c" target="_blank" rel="noopener noreferrer" aria-label="Ouvir The Winner Takes It All no YouTube (abre em nova aba)">Ouvir ↗</a>
+          </li>
+        </ol>
+        <details class="music-details">
+          <summary>Direitos autorais e detalhes das gravações</summary>
+          <ul><li><strong>Dirtmouth</strong> Hollow Knight (Original Soundtrack).</li><li><strong>Merry-Go-Round</strong> ℗ 2025 Curly Records. Editora: Dodo Enterprises Ltd.</li><li><strong>My Friends (Spirit Theme Suite)</strong> Spiritfarer (Original Soundtrack). ℗ 2020 Max LL Music.</li><li><strong>I Wish You Love (Instrumental)</strong> Composição: Albert Beach e Charles Trenet. ℗ 2020 Vingolf Recordings, sob licença exclusiva da AWAL Recordings America, Inc. Editora: Universal Music Corp.</li><li><strong>Acaso</strong> Com Guimocore. Ordem Paranormal: HEXATOMBE (Trilha Sonora). Composição e produção: Alice Schiavoto. ℗ Alice Schiavoto.</li><li><strong>Choral Chambers</strong> Versão de Luke Pickman (InstrumentManiac). Hollow Knight: Silksong.</li><li><strong>Resting Grounds</strong> Hollow Knight (Original Soundtrack).</li><li><strong>Thorns Of A Rose</strong> ℗ 2025 Curly Records. Editora: Dodo Enterprises Ltd.</li><li><strong>The Winner Takes It All</strong> Super Trouper (1980). © 1980 Polar Music International AB.</li></ul>
+          <p>Todas as obras listadas pertencem aos seus respectivos compositores, intérpretes, gravadoras e editoras, que detêm os direitos autorais e de gravação. Os créditos são apresentados em reconhecimento aos seus titulares.</p>
+        </details>
+      </section>
+    </main>
+    <footer>
+      <a href="#inicio" class="footer-brand">WAS</a
+      ><a href="#inicio">Voltar ao início ↑</a>
+    </footer>
+    <script src="script.js"></script>
+    <script src="character-voice.js"></script>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="assets/vendor/ScrollTrigger.min.js"></script>
+    <script src="gsap-effects.js"></script>
+  </body>
+</html>

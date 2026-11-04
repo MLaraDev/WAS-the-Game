@@ -1,0 +1,5 @@
+7 MINUTOS / WAS — site de divulgação
+
+Abra index.html no navegador.
+
+ANTES DE PUBLICAR: em index.html, procure por LINK-DO-JOGO (seção Jogar) e troque pelo endereço onde o jogo pode ser baixado ou jogado.
